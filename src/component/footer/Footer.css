@@ -1,0 +1,49 @@
+.footer {
+    position: fixed;
+    left: 0;
+    margin-top: 8%;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color: white;
+    text-align: center;
+}
+.btn-con {
+    background-color: var(--gray--);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+#myProgress {
+    width: 60%;
+    background-color: #c5c5c8;
+    border-radius: 30px;
+    height: 22px;
+}
+
+#myBar {
+    width: 25%;
+    height: 22px;
+    border-radius: 30px;
+    background-color: var(--green--);
+}
+
+@media screen and (max-width:576px) {
+    #myProgress{
+        display: none;
+    }
+    #count{
+        display: none;
+    }
+    .btn-continue-mobile {
+        width: 100%;
+    }
+    .footer{
+        background-color:var(--light-gray--);
+    }
+}
